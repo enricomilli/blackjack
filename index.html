@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styling.css">
+    </head>
+    <body>
+        <div class="container">
+        <h1 style="margin: 120px 0px 0px 0px;font-size: 75px;" id="blackjack-head">Blackjack</h1>
+        <div id="house-el"></div>
+        <p id="message-el">Want to play a round?</p>
+        <div id="cards-el"></div>
+        <p id="another-round" style="display:none;">Would you like to play another round?</p>
+        <button id="start-btn" onclick="startGame()">START GAME</button>
+        <button id="newcard-btn" style="display:none;" onclick="hit()">HIT</button>
+        <button id="stay-btn" style="display:none;" onclick="gameOn()">STAY</button>
+    </div>
+    <div class="gamedescrip">
+        <h1>Enrico's Blackjack game</h1>
+        <p>Created in 2023.</p>
+    </div>
+    <script src="game.js" ></script>
+    </body>
+</html>
