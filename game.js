@@ -85,10 +85,10 @@ const playerCardsEl = document.getElementById("cards-el")
 let isAlive = false
 let message = ""
 const messageEl = document.getElementById("message-el")
+const bjHeader = document.getElementById('blackjack-header')
 
 function startGame(){
-    document.getElementById('blackjack-head').style.margin = '20px'
-    document.getElementById('blackjack-head').style.fontSize = '36px'
+    bjHeader.style.fontSize = '50px'
     buttonRefresh()
     isAlive = true
     playerSum = 0
